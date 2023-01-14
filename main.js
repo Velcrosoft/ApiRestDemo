@@ -33,11 +33,6 @@ class TodoModel {
     const res = await cliente.query(query, values)
     return res;
 
-    // const todo = {
-    //   text: todoText,
-    //   completed: false,
-    // };
-    // this.todos.push(todo);
   }
 
   editTodo(index, todoText) {
